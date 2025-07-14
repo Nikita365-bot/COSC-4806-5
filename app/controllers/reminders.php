@@ -22,7 +22,7 @@ class Reminders extends Controller {
         'user_id' => 11, // Fixed to user ID 11
         'subject' => $_POST['subject']
       ];
-      
+
       $R->insert_reminder($data);
       header('Location: /reminders');
       exit();
@@ -56,7 +56,7 @@ class Reminders extends Controller {
     }
 
     $R = $this->model('Reminder');
-    
+
     $data = [
       'subject' => $_POST['subject'],
       'user_id' => 11 
