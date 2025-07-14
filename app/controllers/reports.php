@@ -7,7 +7,6 @@ class Reports extends Controller {
       exit;
     }
 
-
     $Reminder = $this->model('Reminder');
     $User = $this->model('User');
 
