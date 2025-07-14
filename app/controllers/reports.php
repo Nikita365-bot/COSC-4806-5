@@ -19,5 +19,5 @@ class Reports extends Controller {
 
 
     $this->view('reports/index', $data);
-  }
+ }
 }
