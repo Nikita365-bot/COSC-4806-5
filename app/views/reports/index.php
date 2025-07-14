@@ -1,23 +1,23 @@
 <div class="container mt-5">
 
-  <h2 class="mb-4">Admin Reports</h2>
+<h2 class="mb-4">Admin Reports</h2>
 
-  <!-- Static Alert -->
-  <div class="alert alert-success" role="alert">
-    Welcome back, Admin! Here are your system reports.
-  </div>
 
-  <!-- Optional Toast -->
-  <div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="d-flex">
-        <div class="toast-body">
-          Admin report loaded successfully!
-        </div>
-        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+<div class="alert alert-success" role="alert">
+  Welcome back, Admin! Here are your system reports.
+</div>
+
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="d-flex">
+      <div class="toast-body">
+        Admin report loaded successfully!
       </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
   </div>
+</div>
 
   <!-- All Reminders -->
   <div class="card mb-4">
