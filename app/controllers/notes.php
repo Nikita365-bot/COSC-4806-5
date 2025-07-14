@@ -29,10 +29,10 @@ class Notes extends Controller {
     ];
 
       $N->insert_note($data);
-      header('Location: /notes');
-      exit;
-    }
-  }
+          header('Location: /notes');
+          exit;
+        }
+      }
 
   public function update($id = null) {
     if (!$id) {
