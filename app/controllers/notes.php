@@ -20,13 +20,13 @@ class Notes extends Controller {
   }
   
   public function store() {
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-      $N = $this->model('Note');
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $N = $this->model('Note');
 
-      $data = [
-        'user_id' => 11, // Fixed to user ID 11
-        'subject' => $_POST['subject']
-      ];
+    $data = [
+      'user_id' => 11, 
+      'subject' => $_POST['subject']
+    ];
 
       $N->insert_note($data);
       header('Location: /notes');
