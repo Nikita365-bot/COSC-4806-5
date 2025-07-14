@@ -22,17 +22,17 @@ if (isset($_SESSION['auth']) && $_SESSION['auth'] == 1) {
   <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">MyApp</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavPublic">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavPublic">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">MyApp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavPublic">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavPublic">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
       </ul>
       <a href="/login" class="btn btn-outline-warning">Login</a>
-    </div>
+      </div>
   </div>
 </nav>
