@@ -18,7 +18,7 @@ class Notes extends Controller {
   public function create() {
     $this->view('notes/create');
   }
-
+  
   public function store() {
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $N = $this->model('Note');
