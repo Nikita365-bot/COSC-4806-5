@@ -8,7 +8,6 @@ class Notes extends Controller {
     $user_id = 11; // Fixed to user ID 11
     $list_of_notes = $N->get_all_notes($user_id);
 
-    // Debug: Check what we're getting
     error_log("User ID: " . $user_id);
     error_log("Notes count: " . count($list_of_notes));
     error_log("Notes data: " . print_r($list_of_notes, true));
