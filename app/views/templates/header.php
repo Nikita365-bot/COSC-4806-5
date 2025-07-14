@@ -38,11 +38,11 @@ if (!isset($_SESSION['auth'])) {
         </li>
         
         <?php if (isset($_SESSION['username']) && strtolower($_SESSION['username']) === 'admin'): ?>
-          <li class="nav-item">
-            <a class="nav-link" href="/reports">Reports</a>
-          </li>
-        <?php endif; ?>
-      </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="/reports">Reports</a>
+            </li>
+          <?php endif; ?>
+        </ul>
 
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
