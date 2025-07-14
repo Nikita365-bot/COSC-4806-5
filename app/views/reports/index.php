@@ -56,14 +56,14 @@
     </ul>
   </div>
 
-  <!-- Chart -->
   <div class="card">
-    <div class="card-header">Login Chart</div>
-    <div class="card-body">
-      <canvas id="loginChart" width="600" height="300"></canvas>
+      <div class="card-header">Login Chart</div>
+      <div class="card-body">
+        <canvas id="loginChart" width="600" height="300"></canvas>
+      </div>
     </div>
   </div>
-</div>
+  
 
 <!-- Chart.js & Bootstrap Toast Script -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
